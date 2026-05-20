@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEAR. | Prime Cuts. Perfect Fire.</title>
+  <meta name="description" content="Sear is a premium, high-end burger restaurant. Prime cuts, perfect fire, no compromises." />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Inter:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+  <header class="navbar">
+    <a href="#hero" class="logo">SEAR.</a>
+    
+    <nav class="nav-desktop">
+      <a href="#signatures" class="nav-link">Signatures</a>
+      <a href="#ethos" class="nav-link">Ethos</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    
+    <div class="nav-actions">
+      <a href="#contact" class="nav-btn">Book Table</a>
+      <button class="hamburger" aria-label="Toggle Menu">
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Fullscreen Navigation Overlay -->
+  <div class="nav-overlay">
+    <div class="nav-overlay-content">
+      <nav class="nav-mobile-links">
+        <a href="#hero" class="overlay-link">Home</a>
+        <a href="#signatures" class="overlay-link">Signatures</a>
+        <a href="#ethos" class="overlay-link">Ethos</a>
+        <a href="#experience" class="overlay-link">Experience</a>
+        <a href="#contact" class="overlay-link">Contact</a>
+      </nav>
+      <div class="nav-overlay-footer">
+        <a href="#contact" class="overlay-btn">Book Table</a>
+        <div class="overlay-socials">
+          <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Section 1: The Hero -->
+    <section id="hero" class="hero-section">
+      <div class="hero-bg parallax-bg" style="background-image: url('/images/hero_searing_patty.webp')"></div>
+      <div class="hero-content fade-up">
+        <h1 class="hero-quote">
+          Prime cuts, perfect fire — which means no fluff,<br/>
+          no handoffs, and <span class="highlight">full focus on quality.</span>
+        </h1>
+        <p class="hero-subtext">These principles guide everything we do.</p>
+      </div>
+    </section>
+
+    <!-- Section 2: The Signatures -->
+    <section id="signatures" class="signatures-section light-section">
+      <div class="sig-watermark">SIGNATURES</div>
+      
+      <div class="sig-content">
+        <div class="sig-left fade-up">
+          <div class="floating-image" style="background-image: url('/images/classic_burger.webp')"></div>
+        </div>
+        
+        <div class="sig-right">
+          <div class="sig-header fade-up">
+            <p><strong>Some signatures we're proud of</strong> — not for bragging, but because they reflect real ingredients and real craft.</p>
+            <a href="#contact" class="sig-link">• Book a Table</a>
+          </div>
+          
+          <div class="sig-stats fade-up">
+            <div class="stat-item">
+              <div class="stat-number">60</div>
+              <div class="stat-title">The Heritage</div>
+              <div class="stat-sub">DAYS DRY-AGED BEEF</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">A5</div>
+              <div class="stat-title">The Sovereign</div>
+              <div class="stat-sub">WAGYU BLEND & TRUFFLE</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">100%</div>
+              <div class="stat-title">Accompaniments</div>
+              <div class="stat-sub">BEEF DRIPPING FRIES</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: The Ethos -->
+    <section id="ethos" class="ethos-section light-section">
+      <div class="ethos-watermark">ETHOS</div>
+      
+      <div class="ethos-scroll-container">
+        
+        <article class="ethos-article">
+          <div class="ethos-image" style="background-image: url('/images/farm.webp')"></div>
+          <div class="ethos-text">
+            <div class="ethos-date">THE SOURCE</div>
+            <h3 class="ethos-headline">Where Every Great Burger Begins</h3>
+            <p class="ethos-desc">We partner with local, regenerative farms to source our 60-day dry-aged beef. No compromises on quality, ever.</p>
+            <a href="#" class="ethos-link">• Read Article</a>
+          </div>
+        </article>
+
+        <article class="ethos-article">
+          <div class="ethos-image" style="background-image: url('/images/chef.webp')"></div>
+          <div class="ethos-text">
+            <div class="ethos-date">THE CRAFT</div>
+            <h3 class="ethos-headline">Treated With Absolute Reverence</h3>
+            <p class="ethos-desc">A great burger isn't just assembled; it's crafted. Our executive chefs apply fine-dining precision to humble street food.</p>
+            <a href="#" class="ethos-link">• Read Article</a>
+          </div>
+        </article>
+
+        <article class="ethos-article">
+          <div class="ethos-image" style="background-image: url('/images/interior.webp')"></div>
+          <div class="ethos-text">
+            <div class="ethos-date">THE ATMOSPHERE</div>
+            <h3 class="ethos-headline">Quiet Luxury in Every Detail</h3>
+            <p class="ethos-desc">Step into a space designed for focus. Dark, sleek, and atmospheric—the perfect backdrop for the perfect bite.</p>
+            <a href="#" class="ethos-link">• Read Article</a>
+          </div>
+        </article>
+        
+      </div>
+    </section>
+
+    <!-- Section 4: The Experience -->
+    <section id="experience" class="experience-section">
+      <div class="exp-content fade-up">
+        <div class="exp-left">
+          <div class="exp-date">THE EXPERIENCE</div>
+          <h2 class="exp-headline">Hospitality That Does More Than Just Serve</h2>
+          <p class="exp-desc">An intimate dining room is nice. An exclusive Chef's Table that explores the absolute peak of our craft? That's powerful. Whether it's dine-in or bespoke private hire—it's about purpose.</p>
+          <a href="#contact" class="exp-link">• View Options</a>
+        </div>
+        <div class="exp-right">
+          <img src="/images/floating_cutlery.webp" alt="Floating Cutlery" class="floating-abstract" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Section 5: The Footer -->
+  <footer id="contact" class="footer-section">
+    <div class="footer-left">
+      <div class="footer-brand">SEAR</div>
+      <div class="footer-contact-block">
+        <div class="contact-item fade-up">
+          <span class="contact-label">Email:</span>
+          <div class="contact-value">reservations@sear.com <span class="copy-icon">⎘</span></div>
+        </div>
+        <div class="contact-item fade-up">
+          <span class="contact-label">Phone:</span>
+          <div class="contact-value">+1 212 555 0199</div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom-left fade-up">
+        <p class="footer-mission">We craft burgers to define what dining can be, design how they show up, and create experiences that matter.<br><strong>Less noise, more flavor.</strong></p>
+        <div class="footer-legal">
+          <a href="#">PRIVACY POLICY</a>
+          <a href="#">TERMS OF SERVICE</a>
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="footer-right">
+      <div class="footer-right-top">
+        <span class="template-logo"><strong>SEAR</strong> TEMPLATE<br><small>HANDCRAFTED BY ANTIGRAVITY</small></span>
+      </div>
+      <div class="footer-links fade-up">
+        <a href="#home">• Home</a>
+        <a href="#menu">• Menu</a>
+        <a href="#ethos">• Ethos</a>
+        <a href="#signatures">• Signatures</a>
+        <a href="#experience">• Experience</a>
+        <a href="#contact">• Contact</a>
+      </div>
+      <div class="footer-copyright">
+        © 2026 SEAR. ALL RIGHTS RESERVED.
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
